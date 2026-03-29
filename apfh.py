@@ -1,7 +1,7 @@
 file = open("sample.txt","r")
 content = file.read()
 print(content)
-file.write("Hi! this is shruti s student of grade 9")
+file.write("Hi! this is shruti a student of grade 9")
 file2 = open("sample2.txt","a")
 content= file1.read()
 file2.write(content)
