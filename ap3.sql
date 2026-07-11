@@ -1,10 +1,3 @@
--- ============================================================
--- SQL Sorting & Filtering
--- Activity: Community Centre Activity Explorer
--- ============================================================
-
--- ---- PART 1: Build and Explore the Table ----
-
 CREATE TABLE IF NOT EXISTS community_activity (
     activity_id     INTEGER PRIMARY KEY,
     activity_name   TEXT    NOT NULL,
